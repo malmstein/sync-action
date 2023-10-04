@@ -1,0 +1,8 @@
+name: 'Sync Test Action'
+description: 'Generate a random code for Maestro'
+outputs:
+  recovery-code: # id of output
+    description: 'The recovery code to be used by Maestro'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
